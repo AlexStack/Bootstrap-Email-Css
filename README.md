@@ -30,6 +30,7 @@
 </html>
 ```
 
-# What can we use?
-- I removed the barely used feature in email, eg. form, input, table, modal, dropdown, nav, navbar, carousel, tooltips
-- Other features are available, eg. col-x, col-md-x
+# What can we use with this email version?
+- Most of the features are available, expect below:
+- Components of form, input, table, modal, dropdown, nav, navbar, carousel, tooltips ...(See bootstrap4-source/scss/bootstrap4-email-css.scss for details)
+- Grid breakpoints only kept xs and md, md can be use for the breakpoints of mobile version and desktop version. which means  only col-*, col-md-* are available. (See bootstrap4-source/scss/_variables-email.scss for details)
